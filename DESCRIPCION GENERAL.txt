@@ -1,9 +1,35 @@
 PRUEBAS
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 LCD
-1 - Inicio en pantalla + contador de viajes + pulsador que frene el proceso + 
+1 - Inicio en pantalla + contador de viajes + pulsador que frene el proceso 
    
-	1.0 - Con interrupcion (no funciona)
+	1.0 - Con interrupcion
 	1.1 - Sin interrupcion
 
-2 - Inicio en pantalla + contador de viajes +  pulsador que frene el proceso + cuenta regresiva
+2 - Inicio en pantalla + contador de viajes + inicio de juego (cuenta regresiva)
+
+     2.1 - Cuenta regresiva en simultaneo con el sonido del buzzer - NO FUNCIONA
+
+
+
+
+3 -  Inicio en pantalla + contador de viajes + cuenta regresiva + simulacion del juego + temporizador general del juego + ultima leyenda (fin del juego)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+JUEGO
+
+1 - Generacion de num random + encendido de un led (este si funciona)
+	
+	1.1 - Los num random se muestran en el lcd (en esta prueba se utiliza el proteus del lcd) - NO FUNCIONA (No importa porque esto no se necesita en el proyecto)
+
+
+2- Implementacion de las pruebas con el lcd
+	
+	2.0 - Inicio en pantalla + contador de viajes + cuenta regresiva + encendido de los leds + deteccion de los viajes (con un pulsador) + mensaje de finalizacion del juego
+	2.1 - Inicio en pantalla + contador de viajes + cuenta regresiva + encendido de los leds + deteccion de los viajes (con un pulsador) + mensaje de finalizacion del juego + reinicio del juego (se vuelve a la parte de configuracion una vez terminado el juego)
+
+
+

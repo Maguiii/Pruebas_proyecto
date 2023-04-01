@@ -28,11 +28,6 @@
  * "    A JUGAR!    " //Se muestra al terminar la cuenta regresiva
  * 
  * 
- * ESTA VERSION 
- * 
- * Se quito la funcion encargada del conteo de los viajes
- * 
- * 
 */
 
 #define incremento 5 //Estos pines los puse por el proteus 

@@ -1,9 +1,9 @@
 PRUEBAS
 
 LCD
-1 - Inicio en pantalla + contador de viajes + pulsador que frene el proceso 
+1 - Inicio en pantalla + contador de viajes + pulsador que frene el proceso + 
    
-	1.0 - Con interrupcion
+	1.0 - Con interrupcion (no funciona)
 	1.1 - Sin interrupcion
 
-2 - Inicio en pantalla + contador de viajes + inicio de juego (cuenta regresiva)
+2 - Inicio en pantalla + contador de viajes +  pulsador que frene el proceso + cuenta regresiva

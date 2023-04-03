@@ -41,6 +41,17 @@ volatile int seg = 0;
 volatile int min = 0;
 volatile int hora = 0;
 
+volatile int cantIndice = 0;
+volatile int cantMayor = 0;
+volatile int cantAnular = 0;
+volatile int cantMenique = 0;
+
+volatile int derecha;
+volatile int izquierda;
+volatile int arriba;
+volatile int abajo;
+//todas estas variables deberian ser pasadas por bluetooth
+
 int regresion;
 int contadorViajes;
 
@@ -49,6 +60,11 @@ void cuentaRegresiva();
 void juego();
 void finDelJuego();
 void cronometro();
+void servoDerecha();
+void servoIzquierda();
+void servoArriba();
+void servoAbajo();
+void bluetooth();//a esta hay que cambiarle el nombre
 
 void setup() {
   lcd.begin(16, 2);

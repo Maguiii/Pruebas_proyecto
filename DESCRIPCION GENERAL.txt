@@ -14,9 +14,6 @@ LCD
 
 
 
-
-3 -  Inicio en pantalla + contador de viajes + cuenta regresiva + simulacion del juego + temporizador general del juego + ultima leyenda (fin del juego)
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 JUEGO

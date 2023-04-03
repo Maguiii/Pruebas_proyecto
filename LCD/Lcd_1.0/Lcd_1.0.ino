@@ -1,5 +1,8 @@
 #include <LiquidCrystal.h>
 
+//este es un cambio efectuado desde la computadora de magali
+
+
 /*PRUEBA LCD 1.0 
  * 
  * Se esta probando el texto inicial (aparecera al prender el proyecto) y 
@@ -45,7 +48,7 @@ LiquidCrystal lcd(12, 11, 10, 9, 8, 7);
 
 volatile int aceptacion = 0;
 volatile int numViajes = 0;
-
+volatile int hola = 0;
 
 void cantViajes();
 

@@ -30,6 +30,7 @@ JUEGO
 	
 	2.0 - Inicio en pantalla + contador de viajes + cuenta regresiva + encendido de los leds + deteccion de los viajes (con un pulsador) + mensaje de finalizacion del juego
 	2.1 - Inicio en pantalla + contador de viajes + cuenta regresiva + encendido de los leds + deteccion de los viajes (con un pulsador) + mensaje de finalizacion del juego + reinicio del juego (se vuelve a la parte de configuracion una vez terminado el juego)
+	2.2 - Idem al anterior pero todo lo que estaba dentro del primer else, ahora esta dentro de una funcion. La idea es acortar el void loop para cuando se tenga que implementar el resto del programa. - NO ESTA PROBADO
 
 
 

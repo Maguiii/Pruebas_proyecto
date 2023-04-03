@@ -104,7 +104,7 @@ void loop() {
      * Finalizada la configuracion 
      * Inicia el juego con una cuenta regresiva de 5 seg, al llegar al final inicia el juego en si
      *  
-     * flagRegresion es una bandera con cuatro estados 
+     * flagRegresion es una bandera con tres estados 
      *    - estado inicial (0) permite que se lea "El juego inicia en: " 
      *                         nunca se vuelve a este estado, por eso nunca se vuelve a mostrar "El juego inicia en: "
      *                         
@@ -112,7 +112,6 @@ void loop() {
      *    
      *    - tercer estado (2)  se establece al termina la cuenta regresiva
      *                         es en este estado que puede dar comienzo el juego
-     *    - cuarto estado (3)  este se utiliza para mostrar todo lo correspondiente al final del juego
     */
     switch(flagRegresion){
       case 0:

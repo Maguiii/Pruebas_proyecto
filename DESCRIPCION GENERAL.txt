@@ -30,6 +30,7 @@ JUEGO
 	2.2 - Idem al anterior pero todo lo que estaba dentro del primer else, ahora esta dentro de una funcion. La idea es acortar el void loop para cuando se tenga que implementar el resto del programa. - NO ESTA PROBADO
 	2.3 - Idem a 2.0 + cronometro general (inicia despues de la cuenta regresiva, se muestra al finalizar el juego) - NO ESTA PROBADO
 
+3 - Es el juego de la version 2.0 con el modulo 74hc595 y el I2C Lcd implementados. 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Guante y proyecto (los que estan fuera de las carpetas9

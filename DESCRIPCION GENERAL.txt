@@ -24,6 +24,8 @@ JUEGO
 	
 	1.2 - Generacion de num random y encendido del led + un pulsador como infra. IMPLEMENTA 74HC595 E I2C DEL LCD
 	
+	1.3 - Generacion de num random y encendido del led. IMPLEMENTA 74HC595 E I2C DEL LCD
+	
 2- Implementacion de las pruebas con el lcd
 	
 	2.0 - Inicio en pantalla + contador de viajes + cuenta regresiva + encendido de los leds + deteccion de los viajes (con un pulsador) + mensaje de finalizacion del juego

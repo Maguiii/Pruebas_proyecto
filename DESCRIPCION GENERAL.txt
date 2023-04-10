@@ -34,7 +34,7 @@ JUEGO
 	2.3 - Idem a 2.0 + cronometro general (inicia despues de la cuenta regresiva, se muestra al finalizar el juego) - NO ESTA PROBADO
 
 
-
+3 - Juego con cantidad de viajes + infras + juego + fin del juego USA 74HC595 (No tiene la cuenta regresiva) 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

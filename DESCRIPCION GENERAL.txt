@@ -36,6 +36,8 @@ JUEGO
 
 3 - Juego con cantidad de viajes + infras + juego + fin del juego USA 74HC595 (No tiene la cuenta regresiva) 
 
+	3.1 - Idem al 3.0 pero con cuenta regresiva
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Guante y proyecto (los que estan fuera de las carpetas9

@@ -21,14 +21,18 @@ JUEGO
 1 - Generacion de num random + encendido de un led (este si funciona)
 	
 	1.1 - Los num random se muestran en el lcd (en esta prueba se utiliza el proteus del lcd) - NO FUNCIONA (No importa porque esto no se necesita en el proyecto)
-
-
+	
+	1.2 - Generacion de num random y encendido del led + un pulsador como infra. IMPLEMENTA 74HC595 E I2C DEL LCD
+	
 2- Implementacion de las pruebas con el lcd
 	
 	2.0 - Inicio en pantalla + contador de viajes + cuenta regresiva + encendido de los leds + deteccion de los viajes (con un pulsador) + mensaje de finalizacion del juego
 	2.1 - Inicio en pantalla + contador de viajes + cuenta regresiva + encendido de los leds + deteccion de los viajes (con un pulsador) + mensaje de finalizacion del juego + reinicio del juego (se vuelve a la parte de configuracion una vez terminado el juego)
 	2.2 - Idem al anterior pero todo lo que estaba dentro del primer else, ahora esta dentro de una funcion. La idea es acortar el void loop para cuando se tenga que implementar el resto del programa. - NO ESTA PROBADO
 	2.3 - Idem a 2.0 + cronometro general (inicia despues de la cuenta regresiva, se muestra al finalizar el juego) - NO ESTA PROBADO
+
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

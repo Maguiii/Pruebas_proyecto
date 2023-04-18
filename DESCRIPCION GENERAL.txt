@@ -1,7 +1,7 @@
 PRUEBAS
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-PARA PROBAR EL 74HC595:
+PROBAR EL 74HC595:
 
 JUEGO	
 	1.2 - Generacion de num random y encendido del led + un pulsador como infra. IMPLEMENTA 74HC595 E I2C DEL LCD
@@ -14,7 +14,30 @@ JUEGO
 		3.1 - Idem al 3.0 pero con cuenta regresiva
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-PARA PROBAR EL BLUETOOTH:
+PROBAR EL BLUETOOTH:
 
-BLUETOOTH_ESCLAVO 1.1 
+	BLUETOOTH_ESCLAVO 0.0
+	BLUETOOTH_MAESTRO 0.0
 
+
+PROBAR BLUETOOTH + LEDS
+
+	BLUETOOTH_MAESTRO_1.0
+	BLUETOOTH_ESCLAVO_2.0
+
+
+PROBAR BLUETOOTH + SERVOS
+
+	BLUETOOTH_MAESTRO_1.0
+	BLUETOOTH_ESCLAVO_1.0
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROBAR SERVOS
+
+	SERVO_1.0
+	
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROBAR INFRAS
+	
+	JUEGO_3.1

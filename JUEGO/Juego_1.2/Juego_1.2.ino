@@ -1,3 +1,4 @@
+#include <Arduino.h>
 /* 
  *  ESTO ES EL JUEGO USANDO EL 74HC595 Y EL I2C DEL LCD
  *  

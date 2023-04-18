@@ -2,11 +2,11 @@
 
 #include <Servo.h>
 
-/* Programa paral el atmega esclavo
+/* Programa paral probar los servos
  * 
- * Tiene la deteccion del otro bluetooth y la funcion de los servos 
+ * tiene 4 pulsadores que menejan a los servos
  * 
- * No esta probado
+ * esta pensado para configurar bien las funciones de los servos antes de agregarle el bluetooth
 */
 
 Servo miservo_1; // servo 1 derecha izquierda

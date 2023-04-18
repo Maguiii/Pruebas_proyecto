@@ -1,44 +1,20 @@
 PRUEBAS
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PARA PROBAR EL 74HC595:
 
-LCD
-1 - Inicio en pantalla + contador de viajes + pulsador que frene el proceso 
-   
-	1.0 - Con interrupcion
-	1.1 - Sin interrupcion
-
-2 - Inicio en pantalla + contador de viajes + inicio de juego (cuenta regresiva)
-
-     2.1 - Cuenta regresiva en simultaneo con el sonido del buzzer - NO FUNCIONA
-
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-JUEGO
-
-1 - Generacion de num random + encendido de un led (este si funciona)
-	
-	1.1 - Los num random se muestran en el lcd (en esta prueba se utiliza el proteus del lcd) - NO FUNCIONA (No importa porque esto no se necesita en el proyecto)
-	
+JUEGO	
 	1.2 - Generacion de num random y encendido del led + un pulsador como infra. IMPLEMENTA 74HC595 E I2C DEL LCD
 	
 	1.3 - Generacion de num random y encendido del led. IMPLEMENTA 74HC595 E I2C DEL LCD
 	
-2- Implementacion de las pruebas con el lcd
-	
-	2.0 - Inicio en pantalla + contador de viajes + cuenta regresiva + encendido de los leds + deteccion de los viajes (con un pulsador) + mensaje de finalizacion del juego
-	2.1 - Inicio en pantalla + contador de viajes + cuenta regresiva + encendido de los leds + deteccion de los viajes (con un pulsador) + mensaje de finalizacion del juego + reinicio del juego (se vuelve a la parte de configuracion una vez terminado el juego)
-	2.2 - Idem al anterior pero todo lo que estaba dentro del primer else, ahora esta dentro de una funcion. La idea es acortar el void loop para cuando se tenga que implementar el resto del programa. - NO ESTA PROBADO
-	2.3 - Idem a 2.0 + cronometro general (inicia despues de la cuenta regresiva, se muestra al finalizar el juego) - NO ESTA PROBADO
 
+	3 - Juego con cantidad de viajes + infras + juego + fin del juego USA 74HC595 (No tiene la cuenta regresiva) 
 
-3 - Juego con cantidad de viajes + infras + juego + fin del juego USA 74HC595 (No tiene la cuenta regresiva) 
-
-	3.1 - Idem al 3.0 pero con cuenta regresiva
+		3.1 - Idem al 3.0 pero con cuenta regresiva
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PARA PROBAR EL BLUETOOTH:
 
-Guante y proyecto (los que estan fuera de las carpetas9
-son maquetas de programas a los que les falta agregar el bluetooth
+BLUETOOTH_ESCLAVO 1.1 
+

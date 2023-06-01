@@ -1,0 +1,60 @@
+BLUETOOTH
+
+	Es una carpeta donde hay un archivo para el atmega esclavo y otro para el atmega maestro
+
+
+	Consiste en 5 pulsadores y 5 leds que simulan ser los servos comunicados por bluetooth
+
+---------------------------------------------------------------------------------------------------
+SERVO_1.0
+	Programa para probar los servos
+  
+	Tiene 4 pulsadores que menejan a los servos
+  
+	Esta pensado para configurar bien las funciones de los servos antes de agregarle el bluetooth
+
+
+CONSUMO_DE_SERVOS
+
+	Es un programa que mueve los tres servos al mismo tiempo utilizando dos pulsadores
+	
+	El archivo esta hecho para el atmega esclavo
+
+Servo_1.0
+
+	Codigo para atmega esclavo
+
+	Funcioonamiento de la grua con los 3 servos y 5 pulsadores
+
+	Esta hecho con muchos if
+
+	Tiene la libreria VarSpeedServo (el servo2 adelante-atras va mas rapido)
+
+Servo_1.1
+
+	Codigo para atmega esclavo
+	
+	Funcionamiento de la grua con los 3 servos y 5 pulsadores
+
+	Tiene funcion switch y no tiene velocidad
+
+---------------------------------------------------------------------------------------------------
+
+Esclavo_2.0
+
+	Juego completo, falta edicion
+
+
+Maestro_1.0
+
+	Programa para el atmega maestro
+
+	Tiene 5 pulsadores PULL DOWN
+
+
+Juego_3.1 
+	
+	Es el juego sin los servos 
+
+
+---------------------------------------------------------------------------------------------------

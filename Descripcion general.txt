@@ -38,6 +38,11 @@ Servo_1.1
 
 	Tiene funcion switch y no tiene velocidad
 
+Guante_1.0
+
+	Codigo para el maestro
+		
+	Utiliza 4 touch y 1 pulsador
 ---------------------------------------------------------------------------------------------------
 
 Esclavo_2.0

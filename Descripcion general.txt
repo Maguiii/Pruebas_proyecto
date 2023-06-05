@@ -56,6 +56,11 @@ Maestro_1.0
 
 	Tiene 5 pulsadores PULL DOWN
 
+Maestro_1.1
+
+	Programa para el atmega maestro
+
+	Tiene 4 touch (se omitio el pulsador 5)
 
 Juego_3.1 
 	
@@ -63,3 +68,16 @@ Juego_3.1
 
 
 ---------------------------------------------------------------------------------------------------
+
+Final_1.0
+
+	Programa para el atmega esclavo
+	
+	Funciona (sin servos ni bluetooth)
+	
+Final_1.1
+	
+	Programa para el atmega esclavo
+	
+	NO Funciona (con servos y bluetooth)
+

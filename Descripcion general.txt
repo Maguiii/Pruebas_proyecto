@@ -80,4 +80,11 @@ Final_1.1
 	Programa para el atmega esclavo
 	
 	NO Funciona (con servos y bluetooth)
+---------------------------------------------------------------------------------------------------
 
+Grua_5.0 
+Grua_5.1
+Guante_5.0
+Guante_5.1
+
+	Son los codigos donde se prueba el funcionamiento de la grua y el guante cuando se usan maquinas de estado finito, se desarrollaron en paralelo a los repositorios MEF_SuperGuanti y MEF_Guante
